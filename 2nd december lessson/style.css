@@ -1,0 +1,123 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    margin: 2em;
+}
+input{
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    width: 30em;
+}
+first{
+    text-align: center;
+    color: black;
+    padding-bottom: 2em;
+}
+first h1{
+    text-transform: capitalize;
+    font-size: 2em;
+    padding-bottom: 1em;
+}
+first h2{
+    background-color: red;
+    color: white;
+    padding: .5em 2em;
+    width: fit-content;
+    margin-left: 40%;
+}
+#download{
+    color: white;
+}
+second{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-top: 2em;
+}
+.one{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: .5em;
+    padding: 2em 1em 4em 1em;
+    width: fit-content;
+    line-height: 4em;
+    margin-left: 10em;
+    box-shadow: 10px 10px rgb(100, 69, 69);
+}
+.one h1{
+    text-align: center;
+    color: rgb(94, 185, 71);
+    text-transform: capitalize;
+    font-size: 1.5rem;
+}
+.sign{
+    color: white;
+    width: 10em;
+    border-bottom-style: hidden;
+    background-color: rgb(94, 185, 71);
+    padding: 1em;
+    margin-left: 10em;
+    box-shadow: 10px 10px rgb(100, 69, 69);
+}
+.side{
+    background-color: rgb(36, 19, 190);
+    border: 1px solid black;
+    border-radius: .5em;
+    padding: 2em 1em 4em 1em;
+    width: fit-content;
+    line-height: 4em;
+    box-shadow: 10px 10px rgb(100, 69, 69);
+
+}
+.side input{
+    border-color: white;
+    background-color: rgb(36, 19, 190);
+}
+.side h1{
+    text-align: center;
+    color: white;
+    text-transform: capitalize;
+    font-size: 1.5rem;
+}
+.next{
+    color: white;
+    width: 10em;
+    border-style: none;
+    border: 2px solid white;
+    background-color:  rgb(36, 19, 190);;
+    padding: 1em;
+    margin-left: 10em;
+}
+.side input{
+    border-color: white;
+}
+.down{
+    margin-left: 11em;
+    border-style: none;
+    background-color: rgb(228, 20, 54);
+    color: white;
+    padding: 1.5em;
+    width: 30em;
+    border-radius: 1em;
+    box-shadow: 10px 10px rgb(100, 69, 69);
+    
+}
+.last h1{
+    padding: 2em 2em 1em 1em;
+}
+.downside{
+    margin-left: 1em;
+    border-style: none;
+    border: 1px solid black;
+    background-color: white;
+    color: rgb(218, 55, 55);
+    padding: 1.5em;
+    border-radius: 1em;
+    width: 30em;
+    box-shadow: 10px 10px rgb(100, 69, 69);
+}
+.part h1{
+    padding: 2em 2em 1em 1em;
+}

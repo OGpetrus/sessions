@@ -1,0 +1,91 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    margin: 2%;
+}
+first{
+    margin:1% auto;
+}
+p img{
+    width: 100%;
+    height: 20em;
+}
+ul{
+    list-style: none;
+}
+.elondp ul {
+    display:flex;
+    margin-left:70% ;
+    position: relative;
+}
+.dp img{
+    width: 10rem;
+    border: 1px double white;
+    border-radius: 5rem;
+}
+.elondp ul .dp{
+    position: absolute;
+    right: 75em;
+    top: -4em;
+}
+.elondp ul .de{
+    position: absolute;
+    right: 14em;
+    top: 1em;
+    width: 3em;
+    border-radius: 1.5em ;
+    border: 1px solid thistle;
+    text-align: center;
+    padding: 0.5em;
+}
+.elondp ul .end{
+    position: absolute;
+    right: 5em;
+    padding: 0.5em;
+    top: 1em;
+    width: 7em;
+    border: 1px solid thistle;
+    border-radius: 2em ;
+    text-align: center;
+}
+second{
+    position: relative;
+}
+second section ul{
+    position: absolute;
+    top: 7em;
+    left: 7em;
+}
+second section ul span{
+    font-weight: bolder;
+    font-size: 1rem;
+    width: 20em;
+}
+third{
+    position: relative;
+}
+third p{
+    position: absolute;
+    top: 12em;
+    left: 7em;
+    width: 10rem;
+}
+fourth{
+    position: relative;
+}
+fourth ul{
+    position: absolute;
+    top: 13em;
+    display: flex;
+    left: 6em;
+}
+fourth ul li{
+    padding: 1em;
+    font-size: 1em;
+    width: 9.5em;
+}
+    
+

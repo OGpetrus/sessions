@@ -1,0 +1,170 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 70%;
+    margin-bottom: 10%;
+    margin-right: 5%;
+    margin-left: 10%;
+    
+}
+.firstsection{
+    background-image: url(./pc.jpg);
+    background-size: cover;
+    position: relative;
+    width: 70%;
+}
+#logo{
+    color: red;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navigation{
+    display: flex;
+    padding-right: 20em;
+    background-color: white;
+    padding-bottom: 3rem;
+}
+.firstbutton{
+    background-color: black;
+    color: white;
+    padding: .1rem;
+    text-align: center;
+}
+.bar{
+    list-style: none;
+    display: flex;
+    position: absolute;
+    right: 0%;
+    background-color: red;
+    padding:2rem 4rem 2rem 4rem;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+}
+.in{
+    padding-left: 2em;
+    color: black;
+}
+.in h1{
+    font-size: 2rem;
+    padding: 1em;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.in p{
+    padding-left: 1em;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.button{
+    padding: 1em 1em;
+}
+.secondsection{
+    width: 70%;
+}
+.secondbutton{
+    background-color: red;
+    color: white;
+    padding: 1em 1em;
+}
+.second1{
+    width: 30%; 
+    position: absolute;
+}
+.next{
+    display: flex;
+}
+.middle{
+    position: absolute;
+    right:41%;
+    background-color: black;
+    color: white;
+    font-size: .5rem;
+    padding:10em 1em 15em 8em ;   
+}
+.red{
+    color: red;
+}
+.middle h3{
+    font-size: 1rem;
+    font-weight: bolder;
+}
+.down{
+    color: red;
+    font-weight: bold;
+}
+hr{
+    width: 10em;
+}
+family{
+    display: flex;
+    position: absolute;
+    padding: 16em 5em 0em 0em;
+}
+group .cent{
+    background-color: white;
+    position: absolute;
+    padding: 2em 8em 2em 0em;
+    font-size: 1rem;
+}
+group .nd {
+    padding: 5em 0em 2em 5em;
+
+}
+.third{
+    position: absolute;
+    left: 11.3em;
+    width: 30em;
+    top: 13em;
+    background-color: red;
+}
+.third h4{
+    padding: 1em 0em 0em 0em;
+    color: white;
+    font-weight: bolder;
+}
+ungroup{
+    display: flex;
+    position: absolute;
+    top: 58em;
+    left: 8.9em;
+}
+.fourth{
+    color: white;
+    width: 10em;
+}
+.fourth h3{
+    padding: 5em 4em 2em 3em;
+    background-color: black;
+    position: absolute;
+}
+heads{
+    background-color: white;
+    color: black;
+    position: absolute;
+    top: 80em;
+}
+heads ul{
+    list-style: none;
+    display: flex;
+}
+heads ul li{
+    padding: 1em 20em 1em 1em;
+}
+.end{
+    background-color: red;
+    color: white;
+    padding: 1em;
+}
+
+
+
+
+
+
+

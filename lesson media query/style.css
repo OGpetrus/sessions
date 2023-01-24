@@ -1,0 +1,132 @@
+<style> @import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap'); </style>
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    width: 95%;
+    background-color: #ffffff;
+}
+header{
+    width: 91%;
+    margin: 0 auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0%;
+    align-items: flex-start;
+}
+nav ul{
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+}
+nav li{
+    padding: 0em 2em;
+}
+.nav-one {
+    border-bottom: 5px solid #5aac4e;
+
+}
+nav a{
+    text-decoration: none;
+    color: #3a4045;
+}
+nav a:hover{
+    border-bottom: 5px solid #5aac4e;
+    color: #5aac4e;
+}
+nav h1{
+    font-weight: 800;
+    font-size: 2.5em;
+    color: #3a4045;
+}
+@media (max-width:720px) {
+    nav{
+        flex-direction: column;
+        justify-content: center;
+        font-size: .8em;
+        
+     /*    display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0%;
+        align-items: flex-start; */
+    }
+    nav ul{
+        flex-direction: column;
+        justify-content: center;
+        font-size: .5em;
+    }
+    nav li{
+        margin-top: 1em;
+    }
+    nav a:hover{
+        border-bottom: 3px solid #5aac4e;
+        color: #5aac4e;
+    }
+}
+main{
+    width: 91%;
+    margin: 5em auto;
+    display: flex;
+    justify-content: space-between;
+}
+img{
+    width: 100%;
+}
+main h3{
+    text-align: left;
+    color: #3a4045;
+    font-size:2em ;
+}
+main p{
+    font-size: 5em;
+    text-align: left;
+    color: #3a4045;
+    font-family: 'Bungee', cursive;
+}
+main p span{
+    color:#5aac4e ;
+}
+@media (max-width:720px){
+    main{
+        flex-direction: column;
+        font-size: .2em;
+        margin: 0% auto;
+    }
+    img{
+        width: 40em;
+        height: 20em;
+        object-fit: cover;
+    }
+}
+footer{
+    width: 91%;
+    margin: 5em auto;
+    background-color: #3a4045;
+}
+footer h2{
+    font: 800;
+    font-size: 4em;
+    color: #5aac4e;
+    text-align: center;
+}
+footer ul{
+    display: flex;
+    justify-content: space-between;
+    color: #5aac4e;
+    font-size: 2em;
+    list-style: none;
+}
+@media (max-width:720px) {
+    foooter ul{
+        flex-direction: column;
+        font-size: .2em;
+    }
+    
+}
+

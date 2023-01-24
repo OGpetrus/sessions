@@ -1,0 +1,15 @@
+img{
+    width: 10em;
+    height: 10em;
+    border-radius: 5em;
+    animation: image 8s ease infinite 2s;
+    animation-fill-mode: both;
+}
+@keyframes image {
+    50%{transform: translate(1350px, 600px)  rotate(90deg);}
+    100%{transform: translate(0vw, 0vw);}
+    
+}
+body{
+    background-color: rgb(173, 95, 95);
+}

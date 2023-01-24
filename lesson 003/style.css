@@ -1,0 +1,153 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    margin: 2em;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: brown;
+}
+first ul{
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    text-align: center;
+    padding: 2em 1em;
+    left:20em;
+    position: relative;
+}
+@keyfram img{
+0%{
+    transform: translateX(0PX)
+}
+50%{
+    transform: translateY(100PX)
+}
+100%{
+    transform: translateX(200PX)
+}
+}
+.koffee{
+    font-weight: bolder;
+    font-size: 2em;
+    position: absolute;
+    right:35em;
+    padding: 0em 2em 0em 1em;  
+}
+.buy{
+    background-color: brown;
+    width: 12em;
+    border: 1px solid transparent;
+    border-radius: 6em;
+    
+}
+.buy span{
+    color: white;
+    padding: 2em;
+}
+second{
+    display: flex;
+    position: relative;
+    top: 2em;
+    justify-content: space-around;
+    margin-left: 4em;
+}
+.kaola{
+    color: brown;
+    font-weight: bolder;
+   font-size: 3em;
+   position: absolute;
+   left: 1em;
+   width: 10em;
+}
+.folloe{
+    position: absolute;
+    top: 4em;
+    left: 1.5em;
+}
+.ok{
+    position: absolute;
+    top: 10em;
+    left: 1.5em;
+    background-color: brown;
+    width: 8em;
+    border: 1px solid  brown;
+    border-radius: 5em;
+}
+.ok span{
+    text-align: center;
+    color: white;
+}
+.side{
+    position: absolute;
+    left: 45em;
+    width:fit-content;
+}
+.side img{
+    width: 40em;
+    height: 15em;
+}
+.side li h1{
+    position: absolute;
+    left: 15em;
+    top: 1em;
+}
+third{
+    position: relative;
+    top: 20em;
+}
+family{
+    display: flex;
+    width: 95%;
+    justify-content: space-around;
+    margin: 1em;
+}
+part ul{
+    display: block;
+    background-color: white;
+    border: 1px solid white;
+    width: fit-content;
+    border-style: outset;
+    border-radius:2em ;
+    top: 3em;
+    position: absolute;
+    justify-content: space-around;
+}
+part ul li{
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+part ul li img{
+    width: 15em;
+    height: 9em;
+}
+third h1{
+    position: absolute;
+    font-size: larger;
+    left: 35em;
+}
+last{
+    position: relative;
+    top: 40em;
+}
+last p{
+    background-image: url(./last.jpg);
+    background-size: cover;
+    padding: 2em;
+    color: white;
+    text-transform: uppercase;
+    font-size: larger;
+    font-weight: bolder;
+    text-align: center;
+}
+
+
+
+
+    

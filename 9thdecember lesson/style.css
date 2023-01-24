@@ -1,0 +1,96 @@
+*{
+    margin: 0%;
+    padding:0%;
+    box-sizing: border-box;
+}
+section{
+    position: relative;
+    margin: 5em auto;
+    border: 5px solid red;
+    width: 45em;
+    height: 45em;
+}
+.box1{
+    position: absolute;
+    background-color: red;
+    width: 20em;
+    height: 20em;
+    border: 1px solid rgb(26, 18, 18);
+    top: 3em;
+    left: 3em;
+    z-index: 4;
+    
+
+    
+}
+.box2{
+    position: absolute;
+    background-color: blue;
+    width: 20em;
+    height: 20em;
+    border: 1px solid black;
+    top: 6em;
+    left: 6em;
+    z-index: 3;
+}
+.box3{
+    position: absolute;
+    background-color:green;
+    width: 20em;
+    height: 20em;
+    border: 1px solid green;
+    top: 9em;
+    left: 9em;
+    z-index: 2;
+    
+}
+.box4{
+    position: absolute;
+    background-color: gray;
+    width: 20em;
+    height: 20em;
+    border: 1px solid black;
+    top: 12em;
+    left: 12em;
+    z-index: 2;
+}
+.box5{
+    position: absolute;
+    background-color: aqua;
+    width: 20em;
+    height: 20em;
+    border: 1px solid red;
+    top: 15em;
+    left: 15em;
+    z-index: 8;
+}
+.box6{
+    position: absolute;
+    background-color: yellow;
+    width: 20em;
+    height: 20em;
+    border: 1px solid black;
+    top: 18em;
+    left: 18em;
+    z-index: 1;
+}
+.box7{
+    position: absolute;
+    background-color: violet;
+    width: 20em;
+    height: 20em;
+    border: 1px solid black;
+    top: 21em;
+    left: 21em;
+    z-index: 2;
+}
+.box8{
+    position: absolute;
+    background-color: purple;
+    width: 20em;
+    height: 20em;
+    border: 1px solid black;
+    top: 24em;
+    left: 24em;
+    z-index: 1;
+}
